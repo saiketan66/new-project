@@ -10,6 +10,7 @@ import { MyServiceService } from './my-service.service';
 import { CompaniesComponent } from './companies/companies.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { HomeComponent } from './home/home.component';
+import { MyFilterPipe } from 'app/pipefilter';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     CompaniesComponent,
     TechnologiesComponent,
-    HomeComponent
+    HomeComponent,
+    MyFilterPipe
   ],
   imports: [
     BrowserModule,

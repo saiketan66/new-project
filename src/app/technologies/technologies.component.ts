@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MyServiceService } from '../my-service.service';
 
 @Component({
   selector: 'app-technologies',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./technologies.component.css']
 })
 export class TechnologiesComponent implements OnInit {
-  constructor() { }
+  technologies: any;
+  constructor(private newService:MyServiceService) { }
 
   ngOnInit() {
-    
+    this.newService.fetchData()
+    .subscribe(
+      (data) => 
+      {        
+        this.technologies = data.rows;
+      }
+    )
   }
 
 }

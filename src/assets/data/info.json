@@ -12,14 +12,14 @@
     {
     "category":"Companies",  
     "title":"DELL",
-    "url":"www.dell.com/in/en",
+    "url":"http://www1.ap.dell.com/content/default.aspx?c=in&l=en&s=&s=gen&~ck=cr",
     "description":"Dell Inc. (stylized as DELL) is a multinational computer technology company based in Round Rock, Texas and, along with Dell EMC, is a subsidiary of Dell Technologies, one of the largest technology companies in the world with 138,000 employees.[4] Dell manufactures, sells, repairs, and supports personal computers (PCs), servers, data storage devices, network switches, computer software, computer peripherals, high-definition televisions, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and e-commerce, particularly its direct-sales model",
     "imageHref":"https://dl.dropboxusercontent.com/s/qe282y489c4zw83/DELL.png?dl=0"
     },
     {
     "category":"Companies",  
     "title":"Infosys",
-    "url":"www.Infosys.com",
+    "url":"https://www.infosys.com/",
     "description":"Co-founded in 1981 by 7 Engineers N. R. Narayana Murthy, Nandan Nilekani, S. Gopalakrishnan, S. D. Shibulal, K. Dinesh and Ashok Arora after they resigned from Patni Computer Systems.[9][10] The company was incorporated as Infosys Consultants Pvt Ltd. with a capital of ?10,000 or US$250 (equivalent to about $659 in 2016) or (?6,41,800 in 2017) in Model Colony, Pune as the registered office.[11] It signed its first client, Data Basics Corporation, in New York City.[12] In 1983, the company's corporate headquarters was relocated from Pune to Bengaluru",
     "imageHref":"https://dl.dropboxusercontent.com/s/kmwpe53nlkb2sfg/Infosys.png?dl=0"
     },
@@ -35,7 +35,7 @@
     "title":"NewFirm",
     "url":"newfirm.com",
     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit erat id ipsum dictum, eu elementum est bibendum. Suspendisse in nulla scelerisque, auctor nibh sit amet, semper nulla. Nullam interdum malesuada tortor, nec tempor nisl facilisis tincidunt. Donec faucibus lobortis pulvinar. Vestibulum rutrum porta mauris, et efficitur erat vulputate quis. Vivamus luctus, tortor sodales pulvinar posuere, ante purus dignissim mi, nec venenatis libero dolor vitae dolor. Integer vel lacus purus.Pellentesque elit sem, condimentum vitae porttitor in, rhoncus quis metus. Vivamus efficitur elementum nibh. Sed consequat orci mauris, a varius tellus suscipit in. Aenean tincidunt feugiat rhoncus. Maecenas maximus condimentum ligula ut venenatis. Suspendisse aliquet nibh non sapien finibus feugiat. Cras sit amet tellus ex. Etiam tincidunt sapien nec leo iaculis elementum. Donec sit amet arcu fermentum nisl euismod fringilla.",
-    "imageHref":"avtar.png"
+    "imageHref":""
     },
     {
     "category":"Technologies",  

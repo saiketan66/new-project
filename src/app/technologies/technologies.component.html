@@ -1,3 +1,16 @@
-<p>
-  technologies works!
-</p>
+<div>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>URL</th> 
+      <th>Description</th>
+      <th>Image</th>
+    </tr>
+    <tr [hidden]="company.category == 'Companies'" *ngFor="let company of technologies">     
+      <td>{{company.title}}</td> 
+      <td><a href='{{company.url}}' target="_blank">{{company.url}}</a></td> 
+      <td>{{company.description}}</td> 
+      <td><img [hidden]="company.imageHref == ''" width="100" height="100" [src]="company.imageHref"/></td> 
+    </tr>
+  </table>
+</div>

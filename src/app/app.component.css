@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid black;
+}
+h2{
+    padding: 10px;
+    margin-top: 0px;
+    border-bottom: 2px solid black;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+a:hover{
+    background-color: blue;
+}
+a:nth-child(2),a:nth-child(3){
+    float: right;
+    margin-right: 10px;
+}
+a:nth-child(1){
+    float: left;
+    margin-left: 10px;
+}
+table {
+  padding: 8px 10px;
+  background-color: red;
+}

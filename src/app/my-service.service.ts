@@ -13,26 +13,10 @@ export class MyServiceService {
     console.log(error);
   }
 
-  sayHello(){
-    console.log("Hello");
-  }
-
   fetchData(){
     return this.http.get('assets/data/info.json')
     .map(
       (response) => response.json()
     )
-    // .subscribe(
-    //   (data) => data,
-    //   (error) => this.handleError(error)
-    // )
   }
-
-  fetchCompanies(){
-    
-  }
-  fetchTechnologies(){
-    
-  }
-
 }

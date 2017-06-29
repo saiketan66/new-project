@@ -12,16 +12,12 @@ export class AppComponent implements OnInit {
   constructor(private newService: MyServiceService){}
 
   ngOnInit(){
-    this.newService.sayHello();
     this.newService.fetchData()
     .subscribe(
       (data) => 
       {
         this.data = data;
-        this.newService.fetchedData = data;
       }
     )
-    //this.newService.fetchCompanies();
-    //this.newService.fetchTechnologies();
   }
 }

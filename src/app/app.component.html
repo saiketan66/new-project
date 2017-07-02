@@ -2,10 +2,16 @@
 
 <h2>{{data?.description}}</h2>
 
-<nav>
-    <a routerLink="/home" routerLinkActive="active">Home</a>
-    <a routerLink="/companies" routerLinkActive="active">Companies</a>
-    <a routerLink="/technologies" routerLinkActive="active">Technologies</a>
-</nav>
+<div style="display:block;margin-bottom:10px; height: 30px;">
+    <nav>
+        <a routerLink="/home" routerLinkActive="active">Home</a>
+        <a routerLink="/companies" routerLinkActive="active">Companies</a>
+        <a routerLink="/technologies" routerLinkActive="active">Technologies</a>
+        <a (click)="downloadPDF()">Save as PDF</a>
+    </nav>
+</div>
 
-<app-home></app-home>
+<div id="editor"></div>
+
+
+<app-home #homePage></app-home>

@@ -4,7 +4,9 @@ import { MyServiceService } from '../my-service.service';
 @Component({
   selector: 'app-technologies',
   templateUrl: './technologies.component.html',
-  styleUrls: ['./technologies.component.css']
+  styleUrls: ['./technologies.component.css',
+              '../../../node_modules/bootstrap/dist/css/bootstrap.css'
+  ]
 })
 export class TechnologiesComponent implements OnInit {
   technologies: any;

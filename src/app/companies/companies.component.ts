@@ -4,7 +4,9 @@ import { MyServiceService } from '../my-service.service';
 @Component({
   selector: 'app-companies',
   templateUrl: './companies.component.html',
-  styleUrls: ['./companies.component.css']
+  styleUrls: ['./companies.component.css',
+   '../../../node_modules/bootstrap/dist/css/bootstrap.css'
+   ]
 })
 export class CompaniesComponent implements OnInit {
   companies: any;

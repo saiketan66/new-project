@@ -1,34 +1,50 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../assets/fonts/HelveticaNeueLight.eot) format("eot"), 
+         url(../assets/fonts/HelveticaNeueLight.woff2) format("woff2"),   
+         url(../assets/fonts/HelveticaNeueLight.woff) format("woff"), 
+         url(../assets/fonts/HelveticaNeueLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
 h1{
     text-align: center;
-    background-color: #ffbf00;
+    background-color:#00d1ff;
     padding: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
-    border-bottom: 2px solid black;
+    /*border: 2px solid #d4d4d4;*/
+    font-family: 'Helvetica Neue';
+    -webkit-box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
 }
 h2{
     padding: 10px;
     margin-top: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #333333;
+    font-family: 'Helvetica Neue';
 }
 a{
     text-decoration: none;
-    color: #ffffff;
-    background-color: #0040ff;
+    background-color: #00d1ff;
     padding: 15px;
+    color: #000000;
     border-radius: 10px;
-    border: 2px solid #616161;
     margin-bottom: 20px;
+    margin-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    font-family: 'Helvetica Neue';
+    cursor: pointer;
+
 }
 a:hover{
     background-color: #0080ff;
-}
-a:nth-child(2),a:nth-child(3){
-    float: right;
-    margin-right: 10px;
+    color: #ffffff;
 }
 a:nth-child(1){
-    float: left;
     margin-left: 10px;
 }
 table {
